@@ -1,6 +1,6 @@
 ## Features
 - The login screen contains an email and password text input field - both fields must not be empty to navigate to the next screen.
-- The photos screen contains a list of photo list within scrollable list.
+- The photos screen contains a scrollable list of photo list items with titles.
 
 ## Prerequisites
 This repo contains an Android Studio project, which can be imported into Android Studio and then built and run on Android Devices or emulators.
