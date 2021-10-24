@@ -84,7 +84,7 @@ class LoginViewModelTests : KoinTest {
     }
 
     @Test
-    fun submitLogin_validPasswordAndvalidEmail_LoginSuccess() {
+    fun submitLogin_validPasswordAndValidEmail_LoginSuccess() {
         viewModel.password = "password"
         viewModel.email = "email@email.com"
         viewModel.submitLogin()

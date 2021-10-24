@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.VisibleForTesting
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import com.example.sbtechincaltest.R
@@ -12,7 +13,8 @@ import com.google.android.material.snackbar.Snackbar
 import org.koin.android.ext.android.inject
 
 class PhotosFragment : Fragment() {
-    private val viewModel: PhotosViewModel by inject()
+    @VisibleForTesting(otherwise = VisibleForTesting.PRIVATE)
+    val viewModel: PhotosViewModel by inject()
     private lateinit var binding: FragmentPhotosBinding
     private lateinit var adapter: PhotosAdapter
 
