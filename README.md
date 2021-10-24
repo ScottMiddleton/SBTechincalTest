@@ -16,8 +16,8 @@ I have implemented an MVVM architecture with a single Activity that supports a m
 
 The DataRepository is intended to be the single data source made accessible to all ViewModels via dependency injection with the Koin Injection Framework.
 The DataRepository is abstracted from the remote data source with intention that it could also provide access to a local database in the future. Although I did
-omit a local database in this particular implementation it could be preferable to save the photo api response locally, for more consistent data that
-would not rely so heavily on the user having a network connection to display data. However, in this example network errors are handlded gracefully.
+omit a local database in this particular implementation, it could be preferable to save the photo api response locally, for more consistent data that
+would not rely so heavily on the user having a network connection. However, in this example network errors are handlded gracefully.
 
 I utilised Retrofit to handle accessing the API endpoints, from which the responses are sent back the the ViewModels as a sealed class which defines 
 success and error types. This reponse is then observed within the Fragments via LiveData where the UI layer responds appropriately. 
