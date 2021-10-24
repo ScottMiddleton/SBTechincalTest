@@ -26,3 +26,5 @@ The retrieved data is displayed in a RecyclerView via an Adapter. I also upgrade
 to use DiffUtil which optimizes the RecyclerView to only refresh should the data change. Additionally, DataBinding is used in the Fragment and Adapter.
 
 I have written Unit and UI tests to test the Viewmodels and Fragments.
+
+With this being a new project I considered it best practice to upgrade to the latest Gradle build tools. I additionally extended to the latest target SDK version. The navigation back from the photos screen will close the app, this was a deliberate decision to follow the typical navigation path of an application post login.
