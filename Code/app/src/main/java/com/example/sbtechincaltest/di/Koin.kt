@@ -4,7 +4,8 @@ import com.example.sbtechincaltest.datasource.DataRepository
 import com.example.sbtechincaltest.datasource.remote.RemoteDataSource
 import com.example.sbtechincaltest.network.RetrofitClient
 import com.example.sbtechincaltest.network.SBApiService
-import com.example.sbtechincaltest.ui.LoginViewModel
+import com.example.sbtechincaltest.ui.login.LoginViewModel
+import com.example.sbtechincaltest.ui.photos.PhotosViewModel
 import com.example.sbtechincaltest.utils.BASE_URL
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
@@ -25,9 +26,10 @@ val appModule = module {
 
     // Data Sources
     single { RemoteDataSource() }
-    single { DataRepository() }
+    single { DataRepository(get()) }
 
     // ViewModels
     viewModel { LoginViewModel() }
+    viewModel { PhotosViewModel(get()) }
 }
 

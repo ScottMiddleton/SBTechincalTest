@@ -5,7 +5,7 @@
     <data>
         <variable
             name="loginViewModel"
-            type="com.example.sbtechincaltest.ui.LoginViewModel" />
+            type="com.example.sbtechincaltest.ui.login.LoginViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

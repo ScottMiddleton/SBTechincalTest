@@ -9,6 +9,11 @@ import retrofit2.Response
 class RemoteDataSource: KoinComponent {
     private val sbApiService by inject<SBApiService>()
 
+    suspend fun getPhotos() = getResult {
+        sbApiService.getPhotos()
+    }
+
+
     private suspend fun <T> getResult(call: suspend () -> Response<T>): Resource<T> {
         return try {
             val response = call()

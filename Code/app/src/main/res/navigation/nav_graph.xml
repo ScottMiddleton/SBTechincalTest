@@ -7,7 +7,17 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.sbtechincaltest.ui.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        android:name="com.example.sbtechincaltest.ui.login.LoginFragment"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_photosFragment"
+            app:destination="@id/photosFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/nav_graph"/>
+    </fragment>
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="com.example.sbtechincaltest.ui.photos.PhotosFragment"
+        android:label="@string/photos"
+        tools:layout="@layout/fragment_photos" />
 </navigation>

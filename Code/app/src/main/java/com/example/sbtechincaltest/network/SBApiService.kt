@@ -8,7 +8,7 @@ import retrofit2.http.GET
 @Keep
 interface SBApiService {
 
-    @GET("photo")
+    @GET("photos")
     suspend fun getPhotos(): Response<List<PhotoResponse>>
 
 }

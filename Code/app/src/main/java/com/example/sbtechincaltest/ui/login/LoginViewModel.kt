@@ -1,4 +1,4 @@
-package com.example.sbtechincaltest.ui
+package com.example.sbtechincaltest.ui.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">SBTechincalTest</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome_back">Welcome back</string>
     <string name="log_in_to_your_student_beans_account">Log in to your Student Beans account</string>
     <string name="log_in">Log in</string>
     <string name="requred_field_error">This is a required field</string>
+    <string name="no_internet_instructions">Please check your internet connection and swipe down to refresh results.</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="photos">Photos</string>
 </resources>

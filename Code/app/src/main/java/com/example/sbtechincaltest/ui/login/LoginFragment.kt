@@ -1,4 +1,4 @@
-package com.example.sbtechincaltest.ui
+package com.example.sbtechincaltest.ui.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.core.widget.doAfterTextChanged
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.example.sbtechincaltest.R
 import com.example.sbtechincaltest.databinding.FragmentLoginBinding
 import org.koin.android.ext.android.inject
@@ -64,7 +65,10 @@ class LoginFragment : Fragment() {
         })
 
         viewModel.loginSuccessLD.observe(viewLifecycleOwner, {
-
+            if (it) {
+                val action = LoginFragmentDirections.actionLoginFragmentToPhotosFragment()
+                findNavController().navigate(action)
+            }
         })
     }
 }
