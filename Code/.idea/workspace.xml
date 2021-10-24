@@ -15,13 +15,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbfe00e1-8cd9-4344-b1ac-bc708d673b56" name="Default Changelist" comment="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbfe00e1-8cd9-4344-b1ac-bc708d673b56" name="Default Changelist" comment="LoginFragmentTest now extending Base class. Toolbar ui improvements">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_31.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_5_31.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/TestApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/TestApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/MainAppInstrumentationDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/MainAppInstrumentationDI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/NetworkInstrumentationDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/NetworkInstrumentationDI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/photos/PhotosFragmentViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/photos/PhotosFragmentViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/utils/LiveDataTestExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/utils/LiveDataTestExtensions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/SBApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/SBApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/datasource/remote/RemoteDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/datasource/remote/RemoteDataSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosViewmodel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosViewmodel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +162,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -178,7 +190,7 @@
       <recent name="com.example.sbtechincaltest" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunManager" selected="Android Instrumented Tests.Tests in 'com.example.sbtechincaltest'">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -472,8 +484,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'com.example.sbtechincaltest.datasource'" />
         <item itemvalue="Android Instrumented Tests.Tests in 'com.example.sbtechincaltest'" />
+        <item itemvalue="Gradle.Tests in 'com.example.sbtechincaltest.datasource'" />
         <item itemvalue="Android Instrumented Tests.LoginFragmentTest" />
         <item itemvalue="Android Instrumented Tests.PhotosFragmentTest" />
         <item itemvalue="Android Instrumented Tests.response_error_swi...()" />
@@ -531,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635114850875</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LoginFragmentTest now extending Base class. Toolbar ui improvements">
+      <created>1635116376933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635116376933</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,18 +596,8 @@
     <MESSAGE value="Initial setup with DataRepository.kt and RemoteDataSource.kt. LoginFragment.kt and LoginViewModel.kt with layout and field validation" />
     <MESSAGE value="Unit Testing setup - LoginViewModelTests.kt and PhotosFragmentViewModelTest.kt passing" />
     <MESSAGE value="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosFragment.kt</url>
-          <line>61</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="LoginFragmentTest now extending Base class. Toolbar ui improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginFragmentTest now extending Base class. Toolbar ui improvements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">

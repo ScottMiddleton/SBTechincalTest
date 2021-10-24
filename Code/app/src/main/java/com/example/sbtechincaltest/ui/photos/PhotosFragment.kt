@@ -66,10 +66,12 @@ class PhotosFragment : Fragment() {
             if (adapter.itemCount == 0) {
                 binding.emptyListTv.visibility = View.VISIBLE
             }
+
             Snackbar.make(
                 requireActivity().findViewById(android.R.id.content),
                 it, Snackbar.LENGTH_LONG
             ).show()
+
             binding.refreshLayout.isRefreshing = false
         }
 

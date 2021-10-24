@@ -1,5 +1,7 @@
 package com.example.sbtechincaltest.datasource.remote
 
+import com.example.sbtechincaltest.R
+import com.example.sbtechincaltest.SBApplication
 import com.example.sbtechincaltest.network.Resource
 import com.example.sbtechincaltest.network.SBApiService
 import org.koin.core.component.KoinComponent
@@ -21,11 +23,11 @@ class RemoteDataSource: KoinComponent {
                 val body = response.body()
                 Resource.Success(body!!)
             } else {
-                Resource.Error("Network Error")
+                Resource.Error(SBApplication.instance.getString(R.string.network_error))
             }
         } catch (e: Exception) {
             e.printStackTrace()
-            Resource.Error("Network Error")
+            Resource.Error(SBApplication.instance.getString(R.string.network_error))
         }
     }
 }

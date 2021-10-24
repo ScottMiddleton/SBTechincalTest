@@ -25,7 +25,7 @@
 
         <TextView
             android:id="@+id/textView2"
-            style="@style/SubitleRegBlack"
+            style="@style/SubtitleRegBlack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/log_in_to_your_student_beans_account"

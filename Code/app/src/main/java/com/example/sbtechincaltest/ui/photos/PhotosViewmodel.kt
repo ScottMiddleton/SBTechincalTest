@@ -1,4 +1,3 @@
-
 package com.example.sbtechincaltest.ui.photos
 
 import androidx.lifecycle.LiveData
@@ -10,7 +9,7 @@ import com.example.sbtechincaltest.network.Resource
 import com.example.sbtechincaltest.network.responses.PhotoResponse
 import kotlinx.coroutines.launch
 
-class PhotosViewModel(private val dataRepository: DataRepository): ViewModel() {
+class PhotosViewModel(private val dataRepository: DataRepository) : ViewModel() {
 
     private val _photosResponseSuccessLD = MutableLiveData<List<PhotoListItem>>()
     val photoResponseSuccessLD: LiveData<List<PhotoListItem>>
@@ -33,7 +32,8 @@ class PhotosViewModel(private val dataRepository: DataRepository): ViewModel() {
             _photosResponseLoadingLD.value = true
             when (val photosResponse = dataRepository.getPhotos()) {
                 is Resource.Success -> {
-                    _photosResponseSuccessLD.value = convertResponseToListItems(photosResponse.data as List<PhotoResponse>)
+                    _photosResponseSuccessLD.value =
+                        convertResponseToListItems(photosResponse.data as List<PhotoResponse>)
                 }
                 is Resource.Error -> {
                     _photosResponseErrorLD.value = photosResponse.message!!

@@ -1,6 +1,5 @@
 package com.example.sbtechincaltest
 
-import com.example.sbtechincaltest.SBApplication
 import org.koin.dsl.module
 
 /**

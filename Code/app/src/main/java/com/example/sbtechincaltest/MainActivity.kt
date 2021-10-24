@@ -1,7 +1,6 @@
 package com.example.sbtechincaltest
 
 import android.os.Bundle
-import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -57,18 +56,9 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
         setupActionBarWithNavController(navController, appBarConfiguration)
     }
 
     override fun onSupportNavigateUp() = NavigationUI.navigateUp(navController, appBarConfiguration)
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            android.R.id.home -> {
-                onBackPressed()
-                return true
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
 }

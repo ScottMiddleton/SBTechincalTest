@@ -52,7 +52,7 @@ class LoginFragment : Fragment() {
     private fun setupObservers() {
         viewModel.emailValidLD.observe(viewLifecycleOwner, {
             if (!it) {
-                binding.emailTil.error = getString(R.string.requred_field_error)
+                binding.emailTil.error = getString(R.string.required_field_error)
             } else {
                 binding.emailTil.error = null
             }
@@ -60,7 +60,7 @@ class LoginFragment : Fragment() {
 
         viewModel.passwordValidLD.observe(viewLifecycleOwner, {
             if (!it) {
-                binding.passwordTil.error = getString(R.string.requred_field_error)
+                binding.passwordTil.error = getString(R.string.required_field_error)
             } else {
                 binding.passwordTil.error = null
             }

@@ -61,7 +61,7 @@ class LoginFragmentTest : BaseUITest() {
             matches(
                 hasTextInputLayoutErrorText(
                     context.getString(
-                        R.string.requred_field_error
+                        R.string.required_field_error
                     )
                 )
             )
@@ -77,7 +77,7 @@ class LoginFragmentTest : BaseUITest() {
             matches(
                 hasTextInputLayoutErrorText(
                     context.getString(
-                        R.string.requred_field_error
+                        R.string.required_field_error
                     )
                 )
             )
@@ -91,7 +91,7 @@ class LoginFragmentTest : BaseUITest() {
                 not(
                     hasTextInputLayoutErrorText(
                         context.getString(
-                            R.string.requred_field_error
+                            R.string.required_field_error
                         )
                     )
                 )
@@ -108,7 +108,7 @@ class LoginFragmentTest : BaseUITest() {
             matches(
                 hasTextInputLayoutErrorText(
                     context.getString(
-                        R.string.requred_field_error
+                        R.string.required_field_error
                     )
                 )
             )
@@ -124,7 +124,7 @@ class LoginFragmentTest : BaseUITest() {
             matches(
                 hasTextInputLayoutErrorText(
                     context.getString(
-                        R.string.requred_field_error
+                        R.string.required_field_error
                     )
                 )
             )
