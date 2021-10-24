@@ -2,9 +2,10 @@ package com.example.sbtechincaltest
 
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
@@ -19,7 +20,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val navHostFragment = supportFragmentManager.findFragmentById(R.id.main_nav_host_fragment) as NavHostFragment
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.main_nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
 
         val topLevelMenuDestinations = setOf(
@@ -31,10 +33,19 @@ class MainActivity : AppCompatActivity() {
         menuDestinations.addAll(topLevelMenuDestinations)
 
         appBarConfiguration = AppBarConfiguration(menuDestinations)
-        setSupportActionBar(findViewById(R.id.toolbar))
 
-        // Get a support ActionBar corresponding to this toolbar and enable the Up button
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id) {
+                R.id.loginFragment -> {
+                    toolbar.findViewById<TextView>(R.id.toolbar_title).text = getString(R.string.photos)
+                }
+            }
+        }
+
+        supportActionBar?.setDisplayShowTitleEnabled(false)
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {

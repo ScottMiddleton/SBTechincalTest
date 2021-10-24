@@ -15,37 +15,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbfe00e1-8cd9-4344-b1ac-bc708d673b56" name="Default Changelist" comment="Unit Testing setup - LoginViewModelTests.kt and PhotosFragmentViewModelTest.kt passing">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_testing_1_3_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_testing_2_3_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_4_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_mockwebserver_4_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_10_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_awaitility_awaitility_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/assets/photos_success.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/CustomInstrumentationRunner.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/TestApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/base/BaseUITest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/MainAppInstrumentationDI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/di/NetworkInstrumentationDI.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/ui/login/LoginFragmentTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/ui/photos/PhotosFragmentTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/utils/TestUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_14_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
+    <list default="true" id="cbfe00e1-8cd9-4344-b1ac-bc708d673b56" name="Default Changelist" comment="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/SbTechnicalTestApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/SBApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/login/LoginFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/ui/photos/PhotosFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/login/LoginViewModelTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/login/LoginViewModelTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sbtechincaltest/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/photos/PhotosFragmentViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/ui/photos/PhotosFragmentViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/utils/LiveDataTestExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/sbtechincaltest/datasource/utils/LiveDataTestExtensions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +143,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/Users/scottmiddleton/Library/Android/sdk/sources/android-31/android/widget/TextView.java_SELECTED" value="TextView" />
+    <property name="android-custom-view/Users/scottmiddleton/Library/Android/sdk/sources/android-31/android/widget/Toolbar.java_SELECTED" value="Toolbar" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/androidTest/java/com/example/sbtechincaltest" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
@@ -200,7 +178,7 @@
       <recent name="com.example.sbtechincaltest" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'com.example.sbtechincaltest.datasource'">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -546,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635098502872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing">
+      <created>1635114850875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635114850875</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -591,7 +576,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial setup with DataRepository.kt and RemoteDataSource.kt. LoginFragment.kt and LoginViewModel.kt with layout and field validation" />
     <MESSAGE value="Unit Testing setup - LoginViewModelTests.kt and PhotosFragmentViewModelTest.kt passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing setup - LoginViewModelTests.kt and PhotosFragmentViewModelTest.kt passing" />
+    <MESSAGE value="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Testing setup - LoginFragmentTest.kt and PhotosFragmentTest.kt passing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

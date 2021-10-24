@@ -1,4 +1,4 @@
-package com.example.fretellotest.utils
+package com.example.sbtechincaltest.datasource.utils
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.LiveData

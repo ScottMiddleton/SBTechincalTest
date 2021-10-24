@@ -1,10 +1,9 @@
 package com.example.sbtechincaltest.datasource.ui.photos
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.fretellotest.utils.getOrAwaitValue
+import com.example.sbtechincaltest.datasource.utils.getOrAwaitValue
 import com.example.sbtechincaltest.datasource.datasource.MockDataRepository
 import com.example.sbtechincaltest.datasource.datasource.MockDataRepository.Companion.testErrorMessage
-import com.example.sbtechincaltest.ui.photos.PhotoListItem
 import com.example.sbtechincaltest.ui.photos.PhotosViewModel
 import org.junit.Before
 import org.junit.Test
