@@ -54,5 +54,4 @@ class PhotosViewModel(private val dataRepository: DataRepository): ViewModel() {
 
         return photosListItems
     }
-
 }

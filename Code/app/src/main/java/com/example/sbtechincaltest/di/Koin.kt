@@ -1,6 +1,7 @@
 package com.example.sbtechincaltest.di
 
 import com.example.sbtechincaltest.datasource.DataRepository
+import com.example.sbtechincaltest.datasource.DataRepositoryImpl
 import com.example.sbtechincaltest.datasource.remote.RemoteDataSource
 import com.example.sbtechincaltest.network.RetrofitClient
 import com.example.sbtechincaltest.network.SBApiService
@@ -26,7 +27,7 @@ val appModule = module {
 
     // Data Sources
     single { RemoteDataSource() }
-    single { DataRepository(get()) }
+    single<DataRepository> { DataRepositoryImpl(get()) }
 
     // ViewModels
     viewModel { LoginViewModel() }
