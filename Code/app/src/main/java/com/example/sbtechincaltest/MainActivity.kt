@@ -36,15 +36,7 @@ class MainActivity : AppCompatActivity() {
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        navController.addOnDestinationChangedListener { _, destination, _ ->
-            when (destination.id) {
-                R.id.loginFragment -> {
-                    toolbar.findViewById<TextView>(R.id.toolbar_title).text = getString(R.string.photos)
-                }
-            }
-        }
-
-        supportActionBar?.setDisplayShowTitleEnabled(false)
+        supportActionBar?.setDisplayShowTitleEnabled(true)
 
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {

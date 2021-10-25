@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.annotation.VisibleForTesting
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import com.example.sbtechincaltest.MainActivity
 import com.example.sbtechincaltest.R
 import com.example.sbtechincaltest.databinding.FragmentPhotosBinding
 import com.google.android.material.snackbar.Snackbar
