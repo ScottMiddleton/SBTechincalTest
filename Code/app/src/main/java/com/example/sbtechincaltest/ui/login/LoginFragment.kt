@@ -50,27 +50,27 @@ class LoginFragment : Fragment() {
     }
 
     private fun setupObservers() {
-        viewModel.emailValidLD.observe(viewLifecycleOwner, {
+        viewModel.emailValidLD.observe(viewLifecycleOwner) {
             if (!it) {
                 binding.emailTil.error = getString(R.string.required_field_error)
             } else {
                 binding.emailTil.error = null
             }
-        })
+        }
 
-        viewModel.passwordValidLD.observe(viewLifecycleOwner, {
+        viewModel.passwordValidLD.observe(viewLifecycleOwner) {
             if (!it) {
                 binding.passwordTil.error = getString(R.string.required_field_error)
             } else {
                 binding.passwordTil.error = null
             }
-        })
+        }
 
-        viewModel.loginSuccessLD.observe(viewLifecycleOwner, {
+        viewModel.loginSuccessLD.observe(viewLifecycleOwner) {
             if (it) {
                 val action = LoginFragmentDirections.actionLoginFragmentToPhotosFragment()
                 findNavController().navigate(action)
             }
-        })
+        }
     }
 }
